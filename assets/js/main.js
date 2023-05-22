@@ -29,7 +29,7 @@ class ValidateForm {
 
         if(senha.value !== repeatSenha.value){
             valid = false
-            this.createError(senha,"fields senha e repetir senha precisam estar iguais")
+            this.createError(senha,"campos senha e repetir senha precisam estar iguais")
             this.createError(repeatSenha,"Campos senha e repetir senha precisam estar iguais")
         }
 
